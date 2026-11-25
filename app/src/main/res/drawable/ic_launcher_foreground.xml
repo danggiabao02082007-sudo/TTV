@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Thân cây -->
+    <path android:pathData="M50,58 L48,80 H60 L58,58 Z" android:fillColor="#FF8D5524" />
+    <path android:pathData="M54,66 L44,60 M54,70 L64,62" android:strokeColor="#FF8D5524"
+        android:strokeWidth="3" android:strokeLineCap="round" />
+    <!-- Tán lá nhiều lớp -->
+    <path android:pathData="M54,46m-22,0a22,18 0,1 1,44 0a22,18 0,1 1,-44 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="54" android:startY="28"
+                android:endX="54" android:endY="64">
+                <item android:offset="0.0" android:color="#FF9CFF57" />
+                <item android:offset="1.0" android:color="#FF1B9E3E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M40,40m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" android:fillColor="#FF5BE36B" />
+    <path android:pathData="M66,38m-11,0a11,10 0,1 1,22 0a11,10 0,1 1,-22 0" android:fillColor="#FF43D17A" />
+    <path android:pathData="M54,30m-10,0a10,9 0,1 1,20 0a10,9 0,1 1,-20 0" android:fillColor="#FFB4F56B" />
+    <!-- Đồng xu trên cây -->
+    <path android:pathData="M42,46m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" android:fillColor="#FFFFD43B"
+        android:strokeColor="#FFF59F00" android:strokeWidth="1.2" />
+    <path android:pathData="M64,50m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" android:fillColor="#FFFFD43B"
+        android:strokeColor="#FFF59F00" android:strokeWidth="1.2" />
+    <path android:pathData="M55,36m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" android:fillColor="#FFFFD43B"
+        android:strokeColor="#FFF59F00" android:strokeWidth="1.2" />
+    <!-- Hoa nhỏ -->
+    <path android:pathData="M34,34m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" android:fillColor="#FFFF5C8A" />
+    <path android:pathData="M74,42m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" android:fillColor="#FFB86BFF" />
+    <path android:pathData="M48,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#FFFF9F43" />
+    <!-- Xấp xu dưới gốc -->
+    <path android:pathData="M64,76 h14 v4 h-14z M65,72 h12 v4 h-12z M64,68 h14 v4 h-14z"
+        android:fillColor="#FFFFC107" android:strokeColor="#FFE67700" android:strokeWidth="0.8" />
+    <path android:pathData="M36,78m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" android:fillColor="#FFFFD43B"
+        android:strokeColor="#FFE67700" android:strokeWidth="1.2" />
+    <path android:pathData="M34.6,74.5 h2.8 v7 h-2.8z" android:fillColor="#FFE67700" />
+</vector>
